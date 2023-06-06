@@ -1,0 +1,23 @@
+'''
+Print the below pattern
+
+input : 5
+output :
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+'''
+
+n = int(input("enter n: "))
+for i in range(1,n+1):
+    print('*'*i)
+for j in range(1,n):
+    print('*'*(n-j))
+  

@@ -1,0 +1,18 @@
+'''
+
+input :
+str : Tejaswini
+char : i 
+output 
+2
+
+'''
+
+str1 = input("Enter the string: ")
+char = input("Enter the character: ")
+count = 0 
+
+for i in str1:
+    if char == i:
+        count += 1
+print(count)

@@ -1,0 +1,14 @@
+'''
+print sum of digits
+input : 123 
+output : 6
+
+'''
+
+n = int(input("Enter the number: "))
+sum_digit = 0 
+while(n != 0):
+    rem = n % 10 
+    sum_digit = sum_digit + rem 
+    n = n // 10 
+print(sum_digit)
